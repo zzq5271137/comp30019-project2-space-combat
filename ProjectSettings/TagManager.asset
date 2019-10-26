@@ -3,7 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Boundary
+  - Asteroid
+  - AsteroidExplosion
+  - Enemy
+  - PlayerShot
+  - EnemyShot
+  - SmallAsteriod
+  - bonus
+  - coins
+  - player
+  - Boss
   layers:
   - Default
   - TransparentFX

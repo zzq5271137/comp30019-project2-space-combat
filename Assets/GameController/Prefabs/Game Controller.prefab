@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5155735940996568082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5155735940996568084}
+  - component: {fileID: 5155735940996568085}
+  m_Layer: 0
+  m_Name: Game Controller
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5155735940996568084
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5155735940996568082}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 70, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5155735940996568085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5155735940996568082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f01b4b38969a350488343ef7ac69c57f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnValues: {x: 6.9, y: 10, z: 10.55}
+  asteroids:
+  - {fileID: 2538644033104953532, guid: 6454f6ee3d8a56d4682ba21f47f3196a, type: 3}
+  - {fileID: 5215740104247878893, guid: cb1bbe293285e6f4fbb491430831e7bb, type: 3}
+  - {fileID: 8802466836443318892, guid: 95359789b2458354284c80f074d2705e, type: 3}
+  asteroidStartWait: 1
+  asteroidCount: 3
+  asteroidSpawnWait: 3
+  asteroidWaveWait: 3
+  enemies:
+  - {fileID: 8855608776060982042, guid: aae4cf7c80881de4a8a2be7697d50bb3, type: 3}
+  enemyStartWait: 2
+  enemyCount: 3
+  enemySpawnWait: 5
+  enemyWaveWait: 5
+  specialEnemies:
+  - {fileID: 3857177138985611170, guid: 82cb1792b497c3443bb1dc5b4d9c4947, type: 3}
+  specialEnemyStartWait: 4
+  specialEnemyCount: 2
+  specialEnemySpawnWait: 17
+  specialEnemyWaveWait: 17
