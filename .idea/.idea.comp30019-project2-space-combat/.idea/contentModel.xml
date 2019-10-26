@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\zzq52\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\zzq52\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_comp30019-project2-space-combat.1424898064.00" t="ExcludeRecursive" />
+    <e p="H:\Unity3D_workspace\comp30019-project2-space-combat" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Asteroid" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="AsteroidMover.cs" t="Include" />
+            <e p="DestroyBigAsteroid.cs" t="Include" />
+            <e p="DestroySmallAsteroid.cs" t="Include" />
+            <e p="RandomRotator.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Background" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="BGScroller.cs" t="Include" />
+            <e p="DirectMoving.cs" t="Include" />
+            <e p="RepeatingBackground.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Bonus" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="CoinMove.cs" t="Include" />
+            <e p="CollisionForCoins.cs" t="Include" />
+            <e p="CollisionForHealthBonus.cs" t="Include" />
+            <e p="CollisionForRayBonus.cs" t="Include" />
+            <e p="CollisionForRocketBonus.cs" t="Include" />
+            <e p="CollisionForSuper.cs" t="Include" />
+            <e p="CollisionForUpdateBonus.cs" t="Include" />
+            <e p="LazerBonus.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Boundary" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="DestroyByBoundary.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Camera" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="CameraShakeInstance.cs" t="Include" />
+            <e p="CameraShaker.cs" t="Include" />
+            <e p="CameraUtilities.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Enemy" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="DestroyBossCentralBolt.cs" t="Include" />
+            <e p="DestroyEnemy.cs" t="Include" />
+            <e p="DirectShot.cs" t="Include" />
+            <e p="EnemyBoltMover.cs" t="Include" />
+            <e p="EnemyDestroyBolt.cs" t="Include" />
+            <e p="EnemyMover.cs" t="Include" />
+            <e p="EvasiveManeuver.cs" t="Include" />
+            <e p="ScatteringShot.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="ShinningSphere.shader" t="Include" />
+          </e>
+        </e>
+        <e p="GameController" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="GameController.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Menu" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="BackToMenu.cs" t="Include" />
+            <e p="CoinUpdater.cs" t="Include" />
+            <e p="CoinUpdaterGame.cs" t="Include" />
+            <e p="InventoryDescriptionScript.cs" t="Include" />
+            <e p="InventoryScript.cs" t="Include" />
+            <e p="LevelSelctedScript.cs" t="Include" />
+            <e p="MainMenu.cs" t="Include" />
+            <e p="PriceUpdater.cs" t="Include" />
+            <e p="Respawn.cs" t="Include" />
+            <e p="ShopDescriptionScript.cs" t="Include" />
+            <e p="ShopScript.cs" t="Include" />
+            <e p="StatusOfGame.cs" t="Include" />
+            <e p="testing.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Player" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Collision.cs" t="Include" />
+            <e p="DestroyObj.cs" t="Include" />
+            <e p="DestroyPlayer.cs" t="Include" />
+            <e p="LaserController.cs" t="Include" />
+            <e p="LazerCollision.cs" t="Include" />
+            <e p="LazerControl.cs" t="Include" />
+            <e p="PlayerBoltMover.cs" t="Include" />
+            <e p="PlayerDestroyBolt.cs" t="Include" />
+            <e p="PlayerInputControl.cs" t="Include" />
+            <e p="RayCollision.cs" t="Include" />
+            <e p="RedBulletCollision.cs" t="Include" />
+            <e p="UvScroll.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="Flash.shader" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="DestroyByTime.cs" t="Include" />
+          <e p="DirectMove.cs" t="Include" />
+          <e p="SelfRotation.cs" t="Include" />
+          <e p="SpiralMotion.cs" t="Include" />
+        </e>
+      </e>
+      <e p="comp30019-project2-space-combat.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
