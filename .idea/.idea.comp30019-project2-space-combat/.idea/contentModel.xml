@@ -16,7 +16,6 @@
         </e>
         <e p="Background" t="Include">
           <e p="Scripts" t="Include">
-            <e p="BGScroller.cs" t="Include" />
             <e p="DirectMoving.cs" t="Include" />
             <e p="RepeatingBackground.cs" t="Include" />
           </e>
@@ -31,6 +30,9 @@
             <e p="CollisionForSuper.cs" t="Include" />
             <e p="CollisionForUpdateBonus.cs" t="Include" />
             <e p="LazerBonus.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="DiffuseShader.shader" t="Include" />
           </e>
         </e>
         <e p="Boundary" t="Include">

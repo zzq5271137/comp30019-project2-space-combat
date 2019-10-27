@@ -1,6 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 
+/**
+ * Reference from https://github.com/andersonaddo/EZ-Camera-Shake-Unity
+ */
+
 [AddComponentMenu("EZ Camera Shake/Camera Shaker")]
 public class CameraShaker : MonoBehaviour
 {

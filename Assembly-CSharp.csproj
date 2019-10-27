@@ -63,7 +63,6 @@
     <Compile Include="Assets\Asteroid\Scripts\DestroyBigAsteroid.cs" />
     <Compile Include="Assets\Asteroid\Scripts\DestroySmallAsteroid.cs" />
     <Compile Include="Assets\Asteroid\Scripts\RandomRotator.cs" />
-    <Compile Include="Assets\Background\Scripts\BGScroller.cs" />
     <Compile Include="Assets\Background\Scripts\DirectMoving.cs" />
     <Compile Include="Assets\Background\Scripts\RepeatingBackground.cs" />
     <Compile Include="Assets\Bonus\Scripts\CoinMove.cs" />
@@ -116,6 +115,7 @@
     <Compile Include="Assets\Scripts\DirectMove.cs" />
     <Compile Include="Assets\Scripts\SelfRotation.cs" />
     <Compile Include="Assets\Scripts\SpiralMotion.cs" />
+    <None Include="Assets\Bonus\Shaders\DiffuseShader.shader" />
     <None Include="Assets\Enemy\Shaders\ShinningSphere.shader" />
     <None Include="Assets\Player\Shaders\Flash.shader" />
     <Reference Include="Unity.Timeline.Editor">

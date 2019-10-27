@@ -1,4 +1,3 @@
-
 Shader "Weapon/Shinning Sphere"
 {
 	Properties
@@ -9,7 +8,7 @@ Shader "Weapon/Shinning Sphere"
 		_BallRadius("Ball Radius", Range(0, 0.5)) = 0.45
 		_BallSharpness("Ball Sharpness", float) = 6
 
-		_RayFrequency("Ray Frequency", float) = 2// Whole numbers are recommended to avoid creating a seam.
+		_RayFrequency("Ray Frequency", float) = 2
 		_RayIntensity("Ray Intensity", float) = 100
 		_RayRoughness("Ray Roughness", Range(0, 1.5)) = 1
 		
@@ -87,7 +86,6 @@ Shader "Weapon/Shinning Sphere"
 
 					float tex = tex2D(_Noise, float2(IN.uv.x + time * _Speed, IN.uv.y) * _TextureScale).x;
 					tex = sin(tex * 3.14 * 4 + time * _Speed * 5) * 0.15 + 0.45;
-					//tex *= tex;
 
 					IN.uv /= distance;// Normalise.
 

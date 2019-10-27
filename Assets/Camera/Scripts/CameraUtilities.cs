@@ -1,5 +1,9 @@
 ﻿using UnityEngine;
 
+/**
+ * Reference from https://github.com/andersonaddo/EZ-Camera-Shake-Unity
+ */
+
 public class CameraUtilities
 {
     public static Vector3 SmoothDampEuler(Vector3 current, Vector3 target,

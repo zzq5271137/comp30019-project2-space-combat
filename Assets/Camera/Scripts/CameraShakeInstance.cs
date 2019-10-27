@@ -1,5 +1,9 @@
 ﻿using UnityEngine;
 
+/**
+ * Reference from https://github.com/andersonaddo/EZ-Camera-Shake-Unity
+ */
+
 public enum CameraShakeState
 {
     FadingIn,
